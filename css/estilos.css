@@ -1,0 +1,28 @@
+body{
+    background-color: palevioletred;
+}
+.principal{
+    background-color: rgba(233, 193, 241, 0.8);
+    margin-top: 20px;
+}
+.doble{
+    background-color: rgba(208, 132, 238, 0.4);
+}
+
+.title{
+    text-align: center;
+    font-family: 'Source Serif 4', sans-serif;
+    padding-top: 2%;
+}
+.instrucciones{
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.9em;
+}
+.preguntas{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.3em;
+}
+.respuestas{
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 0.5em;
+}

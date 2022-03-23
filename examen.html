@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ejercicio 5 - Ahora desaparecemos </title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Ahora desaparecemos">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="author" content="Adriana Atzimba">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
+		  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+		  <link rel="stylesheet" href="css/estilos.css" type="text/css">
+      <link rel="stylesheet" href="https://fonts.google.com">
+	</head>
+
+	<body>
+		<div class="container principal">
+		<h1 class="title">Ejercicio de examen</h1><br>
+    <div class="container doble">
+        <p class="instrucciones">A continuación se muestran tres preguntas cada una con dos opciones, una correcta y una incorrecta. La pregunta 1 nos muestra el ejemplo de cómo deben comportarse la pregunta 2 y 3</p>
+        <p class="instrucciones">Replica en las preguntas 2 y 3 la interacción de la pregunta 1.</p>
+        <p class="instrucciones">Dentro de la etiqueta script se encuentran dos comentarios en donde deben colocarse las instrucciones para la pregunta 2 y 3.</p>
+      </div>
+
+        <p class="preguntas">1. Los colores de la bandera de México son:</p>
+		<p class="respuestas"><a href="#url" class="btn btn-primary btn-lg" id="respuesta1">Azul, amarillo y blanco</a>
+		<a href="#url" class="btn btn-primary btn-lg" id="respuesta2">Verde, blanco y rojo</a>
+		</p>
+
+		
+        <p class="preguntas">2. El escudo representa a:</p>
+        <p class="respuestas"><a href="#url" class="btn btn-primary btn-lg" id="respuesta3">Un águila devorando a una serpiente</a>
+		<a href="#url" class="btn btn-primary btn-lg" id="respuesta4">Un jaguar devorando a una serpiente</a></p>
+
+
+        <p class="preguntas">3. El color verde simboliza:</p>
+        <p class="respuestas"><a href="#url" class="btn btn-primary btn-lg" id="respuesta5">La esperanza</a>
+		<a href="#url" class="btn btn-primary btn-lg" id="respuesta6">La sangre derramada</a></p>
+
+
+        <p class="respuestas"><a href="examen.html" class="btn btn-info btn-sm">Recargar la página</a></p>
+        <p class="instrucciones">Nota: podrás tener un punto extra en este ejercicio si mejoras los estilos aplicados.</p><br>
+		</div>	
+
+
+
+
+        <script>
+            $(document).ready(function(){
+              $("#respuesta1").click(function(){
+                $("#respuesta1").fadeOut(1000);
+            
+              });
+              $("#respuesta2").click(function(){
+                $("#respuesta1").fadeOut(1000);
+            
+              });
+              // aquí inician las instrucciones para la pregunta 2
+             
+              $("#respuesta4").click(function(){
+                $("#respuesta4").fadeOut(1000);
+            
+              });
+              $("#respuesta3").click(function(){
+                $("#respuesta4").fadeOut(1000);
+            
+              });
+              // aquí inician las instrucciones para la pregunta 3
+              $("#respuesta6").click(function(){
+                $("#respuesta6").fadeOut(1000);
+            
+              });
+              $("#respuesta5").click(function(){
+                $("#respuesta6").fadeOut(1000);
+            
+              });
+            });
+
+            </script>
+	</body>
+</html>
